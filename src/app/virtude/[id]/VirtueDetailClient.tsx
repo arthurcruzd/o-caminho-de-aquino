@@ -269,6 +269,12 @@ export default function VirtueDetailClient({ axis, principal, allAxes }: Props) 
               {renderText(axis.privacaoDoBem)}
             </p>
           </div>
+          <Link
+            href="/o-mal"
+            className="inline-block mt-4 text-xs uppercase tracking-widest text-foreground-muted hover:text-foreground transition-colors"
+          >
+            Por que todo vício é privação? →
+          </Link>
         </motion.div>
       )}
 

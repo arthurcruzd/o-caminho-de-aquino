@@ -74,6 +74,22 @@ export default function SobrePage() {
           bom mapa, convida a ser percorrida.
         </p>
 
+        <h2 className="font-serif text-2xl text-foreground mt-10 mb-4">
+          E quando se erra o caminho?
+        </h2>
+        <p>
+          Se a virtude é o ponto reto, o que acontece quando a direção se
+          perde? O mal não cria nada novo — ele distorce o bem que já existe.
+          Cada vício é uma virtude que perdeu sua direção.{" "}
+          <a
+            href="/o-mal"
+            className="text-foreground-muted hover:text-foreground transition-colors underline underline-offset-4 decoration-border"
+          >
+            Entender o mal como privação
+          </a>{" "}
+          muda a forma como se lê todo este mapa.
+        </p>
+
         <div className="mt-16 pt-8 border-t border-border">
           <p className="text-foreground-muted text-sm">
             O nome <strong>&ldquo;O Caminho de Aquino&rdquo;</strong> ecoa o{" "}
