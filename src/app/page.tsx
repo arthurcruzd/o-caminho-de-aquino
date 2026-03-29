@@ -23,13 +23,23 @@ export default function HomePage() {
           É o ponto reto, o único modo real de ser. Todo o resto é distorção.
         </p>
 
-        <Link
-          href="/explorar"
-          className="inline-flex items-center gap-3 px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-300 font-serif text-lg tracking-wide rounded"
-        >
-          Trilhar o Caminho
-          <span aria-hidden="true">→</span>
-        </Link>
+        <div className="flex flex-col items-center gap-4">
+          <Link
+            href="/explorar"
+            className="inline-flex items-center gap-3 px-8 py-3 border border-accent text-accent hover:bg-accent hover:text-background transition-all duration-300 font-serif text-lg tracking-wide rounded"
+          >
+            Trilhar o Caminho
+            <span aria-hidden="true">→</span>
+          </Link>
+
+          <Link
+            href="/o-mal"
+            className="inline-flex items-center gap-2 text-foreground-muted hover:text-foreground transition-colors duration-300 text-sm tracking-wide"
+          >
+            Ou entender o desvio
+            <span aria-hidden="true">→</span>
+          </Link>
+        </div>
 
         <p className="mt-16 text-xs text-foreground-muted opacity-40 tracking-widest uppercase">
           A gramática da ação humana
